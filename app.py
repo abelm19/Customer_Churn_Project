@@ -54,7 +54,7 @@ def main():
         return base64.b64encode(img_file.read()).decode("utf-8")
 
     # Local image path
-    image_path = '/Users/abelmetek/Desktop/Customer Churn Project/background1.jpg'  # Replace with your image path
+    image_path = 'background1.jpg'  # Replace with your image path
     img_base64 = img_to_base64(image_path)
 
     # Add CSS to set the background image

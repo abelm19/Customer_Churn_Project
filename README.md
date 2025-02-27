@@ -1,0 +1,2 @@
+gcloud builds submit --tag gcr.io/customer-churn-project-452208/streamlit_customer_churn_app  --project=customer-churn-project-452208
+gcloud run deploy --image gcr.io/customer-churn-project-452208/streamlit_customer_churn_app --platform managed  --project=customer-churn-project-452208 --allow-unauthenticated
